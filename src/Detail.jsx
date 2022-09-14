@@ -17,7 +17,7 @@ function Detail() {
 
   return (
     <>
-      <Container className="bg-secondary w-50 pt-5 my-5">
+      <Container className="bg-secondary w-50 py-5 my-5">
         <Row className=" d-flex justify-content-md-center">
           <Col lg="3" className="me-4">
             <img
@@ -44,13 +44,13 @@ function Detail() {
             <h4>Follower</h4>
           </Col>
         </Row>
-        <Link
-          to={`/`}
-          className="text-decoration-none d-flex justify-content-md-center pb-5"
-        >
-          <button>back</button>
-        </Link>
       </Container>
+      <Link
+        to={`/`}
+        className="text-decoration-none d-flex justify-content-md-center pb-5"
+      >
+        <button>back</button>
+      </Link>
     </>
   );
 }
